@@ -2,12 +2,11 @@
   "name": "Luxun",
   "version": "1.0.0",
   "description": "a static site generator built with react.js",
-  
   "repository": {},
   "author": "Yadong Qu",
   "license": "MIT",
   "preferGlobal": true,
-  "bin" : {
+  "bin": {
     "Luxun": "./bin/luxun.js"
   },
   "scripts": {
@@ -27,6 +26,8 @@
     "webpack-dev-server": "^2.1.0-beta.0"
   },
   "dependencies": {
+    "express": "^4.14.1",
+    "marked": "^0.3.6",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   }
